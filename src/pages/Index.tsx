@@ -15,7 +15,7 @@ const Index = () => {
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground font-light max-w-xl mx-auto">
-              A private investment collective focused on artificial intelligence.
+              A venture capital firm backing founders in forward-looking industries.
             </p>
           </div>
 
@@ -23,11 +23,11 @@ const Index = () => {
 
           <div className="space-y-8 text-left max-w-2xl mx-auto">
             <div className="p-6 rounded-lg border border-border/50 bg-card/30 backdrop-blur-sm">
-              <h3 className="text-primary text-sm font-medium uppercase tracking-wider mb-3">Notice</h3>
+              <h3 className="text-primary text-sm font-medium uppercase tracking-wider mb-3">About</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                We are a private investment group with a focus on artificial intelligence 
-                and machine learning technologies. We work quietly with exceptional founders 
-                building transformative AI companies.
+                We are a venture capital firm that partners with founders building 
+                companies in forward-looking industries. We work quietly alongside 
+                exceptional teams shaping the future.
               </p>
             </div>
 
