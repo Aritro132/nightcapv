@@ -39,13 +39,6 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="p-6 rounded-lg border border-border/50 bg-card/30 backdrop-blur-sm">
-              <h3 className="text-primary text-sm font-medium uppercase tracking-wider mb-3">Contact</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Introductions are made through our network. If you are building something 
-                remarkable in AI, we would be pleased to hear from you through a mutual connection.
-              </p>
-            </div>
           </div>
         </div>
       </main>
