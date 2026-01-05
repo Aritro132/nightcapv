@@ -15,7 +15,11 @@ const Index = () => {
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground font-light max-w-xl mx-auto">
-              A venture capital firm backing founders in forward-looking industries.
+              Backing exciting ideas and talented people, exploring opportunities across all sectors.
+            </p>
+            
+            <p className="text-base text-muted-foreground/80 font-light">
+              Hong Kong based, investing globally.
             </p>
           </div>
 
@@ -25,9 +29,8 @@ const Index = () => {
             <div className="p-6 rounded-lg border border-border/50 bg-card/30 backdrop-blur-sm">
               <h3 className="text-primary text-sm font-medium uppercase tracking-wider mb-3">About</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                We are a venture capital firm that partners with founders building 
-                companies in forward-looking industries. We work quietly alongside 
-                exceptional teams shaping the future.
+                We partner with talented founders building exciting companies. 
+                Sector agnostic, we look for exceptional teams with bold ideas.
               </p>
             </div>
 
