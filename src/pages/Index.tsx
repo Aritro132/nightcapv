@@ -10,8 +10,8 @@ const Index = () => {
         <div className="max-w-3xl mx-auto text-center space-y-12 animate-fade-in">
           <div className="space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium tracking-tight">
-              <span className="text-primary">Discreet</span>
-              <span className="text-foreground">AI</span>
+              <span className="text-primary">Nightcap</span>
+              <span className="text-foreground">Ventures</span>
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground font-light max-w-xl mx-auto">

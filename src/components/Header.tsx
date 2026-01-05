@@ -14,8 +14,8 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <span className="text-primary text-2xl font-serif font-semibold tracking-tight">Discreet</span>
-            <span className="text-foreground text-2xl font-serif font-light">AI</span>
+            <span className="text-primary text-2xl font-serif font-semibold tracking-tight">Nightcap</span>
+            <span className="text-foreground text-2xl font-serif font-light">Ventures</span>
           </Link>
           
           <ul className="flex items-center gap-8">
