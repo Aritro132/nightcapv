@@ -4,9 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap');
 
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
 @layer base {
   :root {
-    --background: 240 10% 4%;
+    --background: 222 47.3684% 11.1765%;
     --foreground: 0 0% 95%;
 
     --card: 240 10% 6%;
@@ -105,41 +109,41 @@
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-amber-300 to-primary;
   }
-  
+
   .glow {
     box-shadow: 0 0 60px hsl(45 100% 60% / 0.15);
   }
-  
+
   .line-reveal {
     @apply relative overflow-hidden;
   }
-  
+
   .line-reveal::after {
     content: '';
     @apply absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-primary to-transparent;
     transform: translateX(-100%);
     animation: line-slide 3s ease-in-out infinite;
   }
-  
+
   @keyframes line-slide {
     0% { transform: translateX(-100%); }
     50% { transform: translateX(100%); }
     100% { transform: translateX(100%); }
   }
-  
+
   .float {
     animation: float 6s ease-in-out infinite;
   }
-  
+
   @keyframes float {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-20px); }
   }
-  
+
   .pulse-glow {
     animation: pulse-glow 4s ease-in-out infinite;
   }
-  
+
   @keyframes pulse-glow {
     0%, 100% { opacity: 0.3; }
     50% { opacity: 0.8; }
