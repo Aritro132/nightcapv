@@ -136,7 +136,7 @@ const Portfolio = () => {
                       <img
                         src={company.logo}
                         alt={`${company.name} logo`}
-                        className="max-w-full max-h-full object-contain grayscale group-hover:grayscale-0 transition-all duration-500"
+                        className="max-w-full max-h-full object-contain transition-all duration-500 group-hover:scale-105"
                       />
                     </div>
 
