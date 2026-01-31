@@ -1,19 +1,21 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { ExternalLink } from "lucide-react";
+import tobyHeadshot from "@/assets/toby-headshot.png";
+import aritroHeadshot from "@/assets/aritro-headshot.jpeg";
 
 const teamMembers = [
   {
     name: "Toby Duckworth",
     role: "Founder",
     linkedIn: "https://www.linkedin.com/in/toby-duckworth/",
-    initials: "TD",
+    image: tobyHeadshot,
   },
   {
     name: "Aritro Mukherji",
     role: "Analyst",
     linkedIn: "https://www.linkedin.com/in/aritro-mukherji/",
-    initials: "AM",
+    image: aritroHeadshot,
   },
 ];
 
@@ -44,15 +46,12 @@ const Team = () => {
                   style={{ animationDelay: `${index * 150}ms` }}
                 >
                   <div className="aspect-[4/5] relative overflow-hidden bg-card border border-border/30 glow">
-                    {/* Gradient Background */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-card via-card to-primary/5" />
-                    
-                    {/* Initials */}
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-8xl md:text-9xl font-serif italic text-foreground/5 group-hover:text-primary/10 transition-colors duration-700">
-                        {member.initials}
-                      </span>
-                    </div>
+                    {/* Headshot Image */}
+                    <img 
+                      src={member.image} 
+                      alt={member.name}
+                      className="absolute inset-0 w-full h-full object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-700"
+                    />
 
                     {/* Content */}
                     <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-background/90 via-background/50 to-transparent">
